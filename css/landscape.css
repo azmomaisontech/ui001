@@ -1,0 +1,101 @@
+/* Home page */
+
+.heading {
+  margin: 2rem;
+}
+
+.l-heading {
+  font-size: 2rem;
+  line-height: 1;
+}
+p {
+  font-size: 0.8rem !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1rem;
+}
+
+.m-heading {
+  font-size: 1.3rem;
+}
+
+#main-header .header {
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 115vh;
+}
+
+#main-header .header-image {
+  display: none;
+}
+#main-header .header-image img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+#about-us .card1-content .icons h5 {
+  margin-right: 4rem;
+}
+
+#about-us .card1-content i {
+  margin-right: 4rem;
+}
+
+#about-us .card2-content,
+#about-us .card1-content {
+  font-size: 0.7rem;
+}
+
+#about-us .card2-image {
+  width: 60%;
+}
+
+#latest-news .news .news-image img {
+  width: 100%;
+}
+
+#latest-news .news .news-content p {
+  padding: 0;
+  line-height: 1.2;
+}
+
+#latest-news .news .news-content h2 {
+  padding: 0.5rem 0;
+}
+
+#latest-news .news .news-content .btn {
+  margin-top: 0.5rem;
+}
+
+/* About Page */
+
+#other-header {
+  height: 10vh;
+}
+
+/* Service Page */
+
+#services .services-items {
+  grid-template-columns: 1fr;
+}
+
+#services .services-items .border-bottom {
+  width: 19rem;
+}
+
+#order .card .card-content {
+  font-size: 0.7rem;
+}
+
+/* contactus Page */
+
+#map {
+  height: 60vh;
+}

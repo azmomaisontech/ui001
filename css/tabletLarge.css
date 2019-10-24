@@ -1,0 +1,63 @@
+/* Home page */
+
+p {
+  font-size: 0.8rem !important;
+}
+
+#main-header .header {
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+#main-header .header-image img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+#about-us .card1-image {
+  height: 50%;
+}
+
+#about-us .card2-content,
+#about-us .card1-content {
+  font-size: 0.7rem;
+}
+
+#latest-news .news .news-image img {
+  width: 100%;
+}
+
+#latest-news .news .news-content p {
+  padding: 0;
+  line-height: 1.2;
+}
+
+#latest-news .news .news-content h2 {
+  padding: 0.5rem 0;
+}
+
+#latest-news .news .news-content .btn {
+  margin-top: 0.5rem;
+}
+
+/* About Page */
+
+#other-header {
+  height: 10vh;
+}
+
+/* Service Page */
+
+#services .services-items .border-bottom {
+  width: 19rem;
+}
+
+#order .card .card-content {
+  font-size: 0.7rem;
+}
+
+/* contactus Page */
+
+#map {
+  height: 30vh;
+}

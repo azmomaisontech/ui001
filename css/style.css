@@ -1,6 +1,9 @@
 :root {
   --primary-color: #e35604;
   --secondary-color: #1c1c1c;
+  --primary-hamburger-color: rgba(227, 86, 4, 0.75);
+  --overlay-color: rgb(28, 28, 28);
+  --menu-speed: 0.75s;
 }
 
 body {
@@ -24,7 +27,7 @@ a {
 
 /* utilities */
 .container {
-  max-width: 1155px;
+  max-width: 1200px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
@@ -190,28 +193,35 @@ p {
   color: var(--primary-color);
 }
 
+#main-navbar .mobile-nav-bar {
+  display: none;
+}
+
 /* header */
 #main-header {
   background: #f7f7f7;
-  height: 87vh;
 }
 
-#main-header .container {
+#main-header .header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  justify-content: center;
   grid-gap: 3rem;
+  height: 100vh;
 }
-#main-header .header-content {
-  padding-top: 8rem;
-}
+
 #main-header .header-content h3 {
   font-size: 3.5rem;
   font-weight: lighter;
   line-height: 1.3;
 }
+#main-header .header-image {
+  width: 100%;
+}
 
 #main-header .header-image img {
+  width: 100%;
   border-radius: 50%;
   margin: 5rem 0;
 }
@@ -221,7 +231,7 @@ p {
 #about-us .card1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 #about-us .card1-content {
@@ -244,17 +254,17 @@ p {
   margin-right: 6rem;
 }
 #about-us .card1-image {
-  height: 100%;
+  width: 100%;
 }
 
 #about-us .card1-image img {
-  width: 90%;
-  height: 100%;
+  width: 100%;
 }
 
 #about-us .card2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
   margin: 5rem 0;
 }
 
@@ -264,6 +274,10 @@ p {
 
 #about-us .card2 .card2-content h4 {
   padding-bottom: 0.5rem;
+}
+
+#about-us .card2-image {
+  width: 100%;
 }
 
 /* What we do : Service */
@@ -479,10 +493,6 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-}
-
-#order .card .card-content h3 {
-  padding: 1rem 0;
 }
 
 #order .card .card-content p {
